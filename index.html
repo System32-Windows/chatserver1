@@ -8,6 +8,7 @@
     <style>
         * {
             font-family: Lato, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
         }
         
         div {
@@ -15,16 +16,40 @@
             text-align: center;
             font-size: xx-large;
         }
+        
+        #mainbox {
+            width: 80%;
+            display: flex;
+        }
+        
+        #l {
+            margin-left: 10%;
+            margin-right: 30%;
+        }
+        
+        #r {
+            margin-left: 30%;
+            margin-right: 10%;
+        }
     </style>
 </head>
 
 <body>
     <h1>Pobierz Czat Klasowy</h1>
     <h2>Do pobrania: pokój 1 i pokój 2(pobierz obydwie aplikacje)</h2>
-    <div>
-        <a href="Czat klasowy 1.apk" target="_blank"><img src="4a-icon.png" alt="Pokój 1 - obrazek"><br></a>
-        <a href="Czat klasowy 2.apk" target="_blank"><img src="4a-icon.png" alt="Pokój 1 - obrazek"><br></a>
+    <h1>Jak pobrać?</h1>
+    <h2>1. Naciśnij ikonkę aplikacji którą chcesz pobrać.</h2>
+    <h2>2. Zgadzaj się na wszystko.</h2>
+    <h1>Pobierz używając tych przycisków: </h1>
+    <div id="mainbox">
+        <div id="l">
+            <a href="Czat klasowy 1.apk" target="_blank"><img src="4a-icon.png" alt="Pokój 1 - obrazek"><br></a>
+        </div>
+        <div id="r">
+            <a href="Czat klasowy 2.apk" target="_blank"><img src="4a2-icon.png" alt="Pokój 1 - obrazek"><br></a>
+        </div>
     </div>
+
 </body>
 
 </html>
